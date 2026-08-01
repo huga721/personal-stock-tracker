@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    border: 1px solid;
+    border-radius: 12px;
+    flex-direction: column;
+    margin: 20px;
+    width: 180px;
+    padding: 10px;
+    background-color: var(--card-backround-color);
+}
+
+.card-top-and-bottom {
+    color: var(--text-color-secondary);
+}
+
+.card-display-text {
+    font-family: var(--font-display);
+    font-size: 2rem;
+}

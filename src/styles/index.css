@@ -3,6 +3,10 @@
 :root {
     --font-ui: "Inter", sans-serif;
     --font-display: "Syne", sans-serif;
+
+    --text-color-secondary: #6b7280;
+
+    --body-background-color: #E7E7E7;
 }
 
 body {
