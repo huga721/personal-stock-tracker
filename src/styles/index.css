@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --font-ui: "Inter", sans-serif;
-    --font-display: "Syne", sans-serif;
+    --font-ui: "Syne", sans-serif;
+    --font-display: "Inter", sans-serif;
 
-    --text-color-secondary: #6b7280;
+    --background: #E7E7E7;
 
-    --body-background-color: #E7E7E7;
+    --portfolio-elements-margin: 1.5rem;
+    --global-padding-right-left: 1.2rem;
+
+    --header-text-size: 1.3rem;
+    --text-size: 1rem;
+    --text-small-size: 0.8rem;
 }
 
 body {
-    margin: 20px;
-    font-family: var(--font-ui);
+    background-color: var(--background);
+    font-family: var(--font-ui), sans-serif;
+    margin: 0;
 }

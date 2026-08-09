@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: var(--global-padding-right-left);
+    padding-left: var(--global-padding-right-left);
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.navbar-title {
+    font-size: var(--header-text-size);
+    font-weight: 700;
+    color: #111;
+    display: flex;
+}
+
+.navbar-elements {
+    display: flex;
+    list-style: none;
+    font-size: var(--text-size);
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}

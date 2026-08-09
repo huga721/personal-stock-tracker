@@ -1,0 +1,45 @@
+.file-upload-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed #d1d5db;
+    border-radius: 12px;
+    margin-top: 1rem;
+    align-items: center;
+    padding-right: var(--global-padding-right-left);
+    padding-left: var(--global-padding-right-left);
+    width: 24rem;
+}
+
+.file-upload-container input {
+    display: none;
+}
+
+.file-upload-container:not(.has-file) {
+    cursor: pointer;
+}
+
+.file-upload-container.has-file {
+    border-color: #128FA5;
+    background: #f0f6ff;
+}
+
+.file-upload-file-name {
+    font-size: var(--text-small-size);
+}
+
+.file-upload-account-name {
+    font-size: var(--text-size);
+    font-weight: 600;
+}
+
+.file-upload-button {
+    border-radius: 6px;
+    border: black 1px solid;
+    cursor: pointer;
+    height: 2rem;
+    font-family: var(--font-ui);
+}
+
+.file-upload-button.has-file {
+    background: #8fd4e7;
+}

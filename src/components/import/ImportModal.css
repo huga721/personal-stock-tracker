@@ -1,0 +1,43 @@
+.modal-container {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.import-modal {
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #111111 0.8px solid;
+    font-family: var(--font-ui);
+    padding-right: var(--global-padding-right-left);
+    padding-left: var(--global-padding-right-left);
+    font-weight: 600;
+}
+
+.modal-header-exit {
+    cursor: pointer;
+}
+
+.modal-body {
+    padding-left: var(--global-padding-right-left);
+    padding-right: var(--global-padding-right-left);
+    padding-bottom: var(--global-padding-right-left);
+    border-bottom: #111111 0.8px solid;
+}
+
+.modal-footer {
+    padding-left: var(--global-padding-right-left);
+    padding-right: var(--global-padding-right-left);
+    border-bottom: #111111 0.8px solid;
+}
+

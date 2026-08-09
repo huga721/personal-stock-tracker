@@ -4,9 +4,7 @@
     border-radius: 12px;
     flex-direction: column;
     margin: 20px;
-    width: 180px;
     padding: 10px;
-    background-color: var(--card-backround-color);
 }
 
 .card-top-and-bottom {

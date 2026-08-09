@@ -1,12 +1,12 @@
 import React from 'react';
 import Portfolio from './pages/Portfolio.tsx';
-import { Navbar } from './components/Navbar.tsx';
+import { Navbar } from './components/navbar/Navbar.tsx';
 
 function App() {
   return (
   <div className="app">
     <Navbar />
-    <Portfolio></Portfolio>
+    <Portfolio />
   </div>
   );
 }

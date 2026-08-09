@@ -1,0 +1,74 @@
+.dashboard {
+    background-color: #fff;
+    border-radius: 12px;
+    margin: var(--portfolio-elements-margin);
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--text-size);
+    border-bottom: #111111 0.8px solid;
+    padding-right: var(--global-padding-right-left);
+    padding-left: var(--global-padding-right-left);
+}
+
+.dashboard-header-text {
+    font-family: var(--font-ui), sans-serif;
+    font-size: var(--text-size);
+    font-weight: 700;
+}
+
+.dashboard-header-button {
+    border-radius: 6px;
+    border: black 1px solid;
+    cursor: pointer;
+    height: 2rem;
+    font-family: var(--font-ui);
+    font-size: var(--text-small-size);
+}
+
+.dashboard-tabs {
+    padding-right: var(--global-padding-right-left);
+    padding-left: var(--global-padding-right-left);
+    border-bottom: #111111 0.8px solid;
+    display: flex;
+    gap: 1rem;
+}
+
+.dashboard-tabs-element {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.dashboard-tabs-element.active {
+    border-bottom: 2px solid #111;
+    color: #111;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th:not(:first-child), td:not(:first-child) {
+    text-align: right;
+}
+
+th {
+    font-family: var(--font-ui), sans-serif;
+    font-size: var(--text-small-size);
+    font-weight: 600;
+    color: #9ca3af;
+    text-align: left;
+}
+
+th, td {
+    padding-left: var(--global-padding-right-left);
+    padding-right: var(--global-padding-right-left);
+}
+
+thead {
+    margin: 3rem;
+}
